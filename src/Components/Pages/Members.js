@@ -8,19 +8,26 @@ import { BsTwitter } from "react-icons/bs";
 const Members = () => {
   const [members, setMembers] = useState();
   useEffect(() => {
-    fetch("https://dull-teal-octopus-sari.cyclic.app/members")
+    fetch("https://smart-field.onrender.com/members")
       .then((res) => res.json())
       .then((data) => setMembers(data));
   }, []);
 
   return (
     <div className="lg:px-36 px-0">
-     
-      <h1 className="border-b-2 mb-24  m-auto mt-2 text-4xl text-orange-400 text-center hover:border-pink-400 w-64 ease-in duration-300 "> Our Members</h1>
+      <div className="mb-24  mt-2">
+        <h1 className="border-b-2  m-auto text-4xl text-orange-400 text-center hover:border-pink-400 w-64 ease-in duration-300 ">
+          {" "}
+          Meet Our Team
+        </h1>
+        <h1 className="text-xl text-gray-400 text-center ">
+          The talented people behind the scenes
+        </h1>
+      </div>
       <div className="grid lg:grid-cols-3 grid-cols-1 gap-8">
         {members?.map((member) => (
           <>
-            <a class="group relative block bg-black  " data-aos="fade-up">
+            <a class="group relative block bg-black  " data-aos="zoom-in-left">
               {member?.image ? (
                 <img
                   src={member?.image}
