@@ -18,7 +18,7 @@ const Services = () => {
         <a
           href=""
           class="relative block rounded-sm border-t-4 border-pink-600 p-8 pb-24 shadow-xl"
-          data-aos="zoom-in-left"
+          data-aos="zoom-in-up"
         >
           <h3 class="text-3xl font-bold">Web Experience</h3>
           <p class="mt-4 text-lg font-medium text-gray-500">
@@ -47,7 +47,7 @@ const Services = () => {
         <a
           href=""
           class="relative block rounded-sm border-t-4 border-pink-600 p-8 pb-24 shadow-xl"
-          data-aos="zoom-in-left"
+          data-aos="zoom-in-up"
         >
           <h3 class="text-3xl font-bold">Enterprise Software</h3>
           <p class="mt-4 text-lg font-medium text-gray-500">
@@ -76,7 +76,7 @@ const Services = () => {
         <a
           href=""
           class="relative block rounded-sm border-t-4 border-pink-600 p-8 pb-24 shadow-xl"
-          data-aos="zoom-in-left"
+          data-aos="zoom-in-up"
         >
           <h3 class="text-3xl font-bold">Apps & Games Development</h3>
           <p class="mt-4 text-lg font-medium text-gray-500">
@@ -105,7 +105,7 @@ const Services = () => {
         <a
           href=""
           class="relative block rounded-sm border-t-4 border-pink-600 p-8 pb-24 shadow-xl"
-          data-aos="zoom-in"
+          data-aos="zoom-in-up"
         >
           <h3 class="text-3xl font-bold">Design</h3>
           <p class="mt-4 text-lg font-medium text-gray-500">
@@ -134,7 +134,7 @@ const Services = () => {
         <a
           href=""
           class="relative block rounded-sm border-t-4 border-pink-600 p-8 pb-24 shadow-xl"
-          data-aos="zoom-in-left"
+          data-aos="zoom-in-up"
         >
           <h3 class="text-3xl font-bold">Content</h3>
           <p class="mt-4 text-lg font-medium text-gray-500">
@@ -164,7 +164,7 @@ const Services = () => {
         <a
           href=""
           class="relative block rounded-sm border-t-4 border-pink-600 p-8 pb-24 shadow-xl"
-          data-aos="zoom-in-left"
+          data-aos="zoom-in-up"
         >
           <h3 class="text-3xl font-bold">Social</h3>
           <p class="mt-4 text-lg font-medium text-gray-500">

@@ -59,7 +59,7 @@ const Navbar = () => {
             <Link
               to="/contact"
               type="button"
-              class="mt-2 text-white bg-gradient-to-br from-primary to-secondary hover:bg-gradient-to-bl  focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+              class="mt-2 text-white bg-gradient-to-br from-primary to-secondary hover:bg-gradient-to-bl  focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 text-center  mb-2"
             >
               Contact us
             </Link>

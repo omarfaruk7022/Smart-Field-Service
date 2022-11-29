@@ -16,7 +16,7 @@ const Members = () => {
   return (
     <div className="lg:px-36 px-0">
       <div className="mb-24  mt-2">
-        <h1 className="border-b-2  m-auto text-4xl text-orange-400 text-center hover:border-pink-400 w-64 ease-in duration-300 ">
+        <h1 className="border-b-2 m-auto text-4xl text-orange-400 text-center hover:border-pink-400 w-64 ease-in duration-300 ">
           {" "}
           Meet Our Team
         </h1>
@@ -27,7 +27,7 @@ const Members = () => {
       <div className="grid lg:grid-cols-3 grid-cols-1 gap-8">
         {members?.map((member) => (
           <>
-            <a class="group relative block bg-black  " data-aos="zoom-in-left">
+            <a class="group relative block bg-black  " data-aos="zoom-in-up">
               {member?.image ? (
                 <img
                   src={member?.image}
