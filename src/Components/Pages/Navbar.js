@@ -36,14 +36,7 @@ const Navbar = () => {
                   Home
                 </Link>
               </li>
-              <li>
-                <Link
-                  class="text-gray-600 font-bold transition hover:text-black text-[15px]"
-                  to="#"
-                >
-                  Our Services
-                </Link>
-              </li>
+              
             </ul>
           </div>
           <a href="">
@@ -60,14 +53,7 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
-            <li>
-              <Link
-                class="text-gray-600 font-bold transition hover:text-black text-[15px]"
-                to="#"
-              >
-                Our Services
-              </Link>
-            </li>
+          
           </ul>
         </div>
         <div className="navbar-end">
