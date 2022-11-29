@@ -8,8 +8,8 @@ module.exports = {
     themes: [
       {
         mytheme: {
-          primary: "#a991f7",
-          secondary: "#f6d860",
+          primary: "#EC404C",
+          secondary: "#9952DF",
           accent: "#37cdbe",
           neutral: "#3d4451",
           "base-100": "#ffffff",
@@ -17,5 +17,5 @@ module.exports = {
       },
     ],
   },
-  plugins: [require("daisyui"), require("flowbite/plugin")],
+  plugins: [require("daisyui"), "flowbite/plugin"],
 };
