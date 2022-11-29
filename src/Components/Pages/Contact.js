@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import logo from "..//Images//logo.png"
 
 const Contact = () => {
   const form = useRef();
@@ -80,6 +81,7 @@ const Contact = () => {
             <div className="text-gray-600">
               Contact with our team to get more <br /> information about our
               services.
+            <img className="w-60 " src={logo} alt="" />
             </div>
           </div>
           <img

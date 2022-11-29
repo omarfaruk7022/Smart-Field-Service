@@ -36,20 +36,36 @@ const Navbar = () => {
                   Home
                 </Link>
               </li>
+              <li>
+                <Link
+                  class="text-gray-600 font-bold transition hover:text-black text-[15px]"
+                  to="#"
+                >
+                  Our Services
+                </Link>
+              </li>
             </ul>
           </div>
           <a href="">
             <img className="lg:h-[80px] h-16" src={logo} alt="" />
           </a>
         </div>
-        <div className=" hidden lg:flex ">
-          <ul class="flex items-center gap-6 text-sm ">
+        <div className="hidden lg:flex ">
+          <ul class="flex items-center gap-6 ">
             <li>
               <Link
                 class="text-gray-600 font-bold transition hover:text-black text-[15px]"
                 to="/"
               >
                 Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                class="text-gray-600 font-bold transition hover:text-black text-[15px]"
+                to="#"
+              >
+                Our Services
               </Link>
             </li>
           </ul>

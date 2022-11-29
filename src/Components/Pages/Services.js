@@ -2,7 +2,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="my-56">
+    <div className="my-56  bg-[url(https://i.ibb.co/378gP05/abstract-background-with-squares-23-2148995948.webp)]  bg-cover bg-center bg-no-repeat h-[75vh] ">
       <div className="mb-12">
         <h1 className="border-b-2 mb-2 m-auto text-4xl text-orange-400 text-center hover:border-pink-400 w-64 ease-in duration-300 ">
           {" "}

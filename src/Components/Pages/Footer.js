@@ -6,7 +6,7 @@ const Footer = () => {
     <div>
       <footer
         aria-label="Site Footer"
-        className="bg-white mt-56 bg-[url(https://i.ibb.co/wWKfTZb/getmap.png)] "
+        className="mt-56  "
       >
         <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
           <div class="lg:flex lg:items-start lg:gap-8">
