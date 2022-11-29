@@ -9,15 +9,14 @@ import Services from "./Services";
 
 const Home = () => {
   return (
-    <div  className="sm:mr-0">
+    <div className="sm:mr-0">
       <Banner />
       <Mission />
-      <About/>
-      <Services/>
+      <About />
+      <Services />
       <Members />
-      <Reviews/>
-      {/* <Contact/> */}
-     
+      <Reviews />
+      <Contact />
     </div>
   );
 };
